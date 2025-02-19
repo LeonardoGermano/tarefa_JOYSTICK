@@ -74,7 +74,7 @@ Este projeto visa a utilização do **Conversor Analógico-Digital (ADC)** do **
 ---
 ## 🎥 Entrega
 - **demonstrando:**
-- Video: [--](--)
+- Video: [Tarefa Joystick](https://youtu.be/_NrgHh0Fcgc)
 
 ---
 ## 👨‍💻 Autor

@@ -7,9 +7,8 @@
 #include "hardware/adc.h"
 #include "inc/ssd1306_i2c.h"
 #include "inc/ssd1306_font.h"
-#include "matriz.h"
 #include "hardware/clocks.h"
-#include "hardware/pwm.h"  // Inclua a biblioteca do PWM
+#include "hardware/pwm.h"  // Incluia a biblioteca do PWM
 
 // Pinos e configurações de hardware
 #define I2C_PORT i2c1

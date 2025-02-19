@@ -32,7 +32,7 @@ project(display_oled1 C CXX ASM)
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
-add_executable(display_oled1 display_oled1.c inc/ssd1306_i2c.c matriz.c)
+add_executable(display_oled1 display_oled1.c inc/ssd1306_i2c.c )
 
 pico_set_program_name(display_oled1 "display_oled1")
 pico_set_program_version(display_oled1 "0.1")
@@ -42,10 +42,6 @@ pico_enable_stdio_uart(display_oled1 1)
 pico_enable_stdio_usb(display_oled1 1)
 
 
-
-# Generate PIO header from the .pio file
-file(MAKE_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/generated)
-pico_generate_pio_header(display_oled1 ${CMAKE_CURRENT_LIST_DIR}/matrizled.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
 
 # Add the standard library to the build
 target_link_libraries(display_oled1
